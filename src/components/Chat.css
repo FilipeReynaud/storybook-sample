@@ -1,0 +1,128 @@
+#chat-box {
+	width: 375px;
+	min-height: 212px;
+}
+
+.chat-box-info-div {
+	width: 375px;
+	min-height: 154px;
+	background: #4643d3;
+	border-radius: 24px 24px 0px 0px;
+}
+
+.chat-box-content {
+	padding: 22px 32px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.chat-box-content-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.avatar-image {
+	width: 48px;
+	height: 48px;
+}
+
+.user-details {
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+	width: 80%;
+	row-gap: 4px;
+}
+
+.user-name {
+	font-family: Montserrat !important;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.25px;
+	color: #ffffff;
+}
+
+.user-job {
+	font-family: Montserrat !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+.close-icon-div {
+	width: 10%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.close-icon-button {
+	align-self: flex-start !important;
+
+	/* Override MUI CSS */
+	margin-right: -15px !important;
+	margin-top: -25px !important;
+	color: white !important;
+	opacity: 0.5 !important;
+}
+
+.details {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.chat-box-message-div {
+	/* padding: 22px 16px; */
+	width: 375px;
+	min-height: 58px;
+	background: #ffffff;
+	border-radius: 0px 0px 24px 24px;
+}
+
+.chat-box-input-div {
+	padding: 12px 22px 16px 22px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.custom-input {
+	border: none;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.25px;
+	color: #afafbd;
+}
+
+.custom-input:focus {
+	outline: none;
+}
+
+.send-button {
+	/* Override MUI CSS */
+	font-family: Montserrat !important;
+	font-style: normal !important;
+	font-weight: 600 !important;
+	font-size: 15px !important;
+	line-height: 18px !important;
+	display: flex !important;
+	align-items: center !important;
+	text-align: right !important;
+	text-transform: capitalize !important;
+	color: #5856d7 !important;
+}
